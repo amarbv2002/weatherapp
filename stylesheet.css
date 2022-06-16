@@ -1,0 +1,56 @@
+.box-shadow-all {
+    box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.75);
+margin: 5vh auto;
+width: 95vw;
+}
+
+.slider {
+    background: linear-gradient(to right, rgba(191, 169, 3, 0.85) , rgba(1, 89, 165, 0.85)) ,url(slider-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95vw;
+    height: 35vh;
+}
+
+.slider-inner {
+    margin: 0 auto;
+}
+
+.weather-content {
+    background-color: white;
+    padding: 2em;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+@media (max-width: 380px) {
+    .weather-content {
+        width: 90%;
+    }
+}
+
+.profile {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.img-circle {
+    background-color: #0088ff;
+    border-radius: 50%;
+}
+
+footer {
+    width: 95vw;
+    margin: 0 auto;    
+}
+
+footer a {
+    color: #33a0ff;
+    text-decoration: none;
+    font-weight: bold;
+}
