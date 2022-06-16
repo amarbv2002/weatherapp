@@ -23,6 +23,7 @@ $(document).ready(function () {
             </center>
             
             </div>
+            <center><button onclick="reset()" class="btn btn-danger mt-2">RESET</button></center>
                 `
             );
         });
